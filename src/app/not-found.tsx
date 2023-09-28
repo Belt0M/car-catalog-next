@@ -1,10 +1,12 @@
 import { Metadata, NextPage } from 'next'
 import Image from 'next/image'
 import Layout from './_layouts/Layout'
+import { getMeta } from './_utils/seo/get-meta'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = getMeta({
 	title: 'Not Found',
-}
+	author: { name: 'BeltoM' },
+})
 
 const NotFound: NextPage = () => {
 	return (
