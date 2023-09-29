@@ -1,0 +1,16 @@
+.item {
+	border-radius: 0.5rem;
+
+	> h3 {
+		margin: 0.5rem 0;
+	}
+
+	> small {
+		margin: 0.25rem 0;
+	}
+
+	> a {
+		padding: 1rem 2rem;
+		background: rgba(136, 0, 255, 0.463);
+	}
+}

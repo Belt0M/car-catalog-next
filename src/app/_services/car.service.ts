@@ -10,7 +10,7 @@ export const CarService = {
 		return data
 	},
 	async getById(id: string) {
-		const { data } = await axios.get<ICar[]>('/cars', { params: id })
+		const { data } = await axios.get<ICar[]>('/cars', { params: { id } })
 		return data[0]
 	},
 }
