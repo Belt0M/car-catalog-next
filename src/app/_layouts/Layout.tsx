@@ -3,10 +3,10 @@ import Header from '../_components/header/Header'
 
 const Layout: FC<PropsWithChildren<unknown>> = ({ children }) => {
 	return (
-		<div>
+		<>
 			<Header />
 			<main>{children}</main>
-		</div>
+		</>
 	)
 }
 

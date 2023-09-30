@@ -1,16 +1,32 @@
 .item {
-	border-radius: 0.5rem;
+	width: 20rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 7rem;
 
-	> h3 {
-		margin: 0.5rem 0;
+	> img {
+		border-radius: 1rem;
 	}
 
-	> small {
-		margin: 0.25rem 0;
+	> h3 {
+		margin: 1rem 0;
+	}
+
+	> p {
+		margin: 0.25rem 0 1rem 0;
 	}
 
 	> a {
-		padding: 1rem 2rem;
-		background: rgba(136, 0, 255, 0.463);
+		padding: 0.5rem;
+		width: 6rem;
+		text-align: center;
+		background: rgba(136, 0, 255, 0.203);
+		color: #fff;
+		text-decoration: none;
+		font-size: 1rem;
+		border-radius: 0.25rem;
 	}
 }

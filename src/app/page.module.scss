@@ -1,4 +1,14 @@
-.main {
+.wrapper {
 	height: calc(100vh - 3rem);
-	background: #1b1b1b;
+	padding: 3rem 10rem;
+
+	> h1 {
+		margin-bottom: 1rem;
+	}
+
+	> .container {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		padding-bottom: 3rem;
+	}
 }
